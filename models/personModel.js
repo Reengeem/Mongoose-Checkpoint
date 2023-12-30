@@ -1,7 +1,7 @@
 // Import dependencies
 import mongoose from "mongoose";
 
-// Define the Person schema
+// Define the Person schema here
 const personSchema = new mongoose.Schema(
   {
     name: {

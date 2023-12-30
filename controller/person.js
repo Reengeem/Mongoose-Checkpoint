@@ -1,7 +1,7 @@
 import Person from "../models/personModel.js";
 import mongoose from "mongoose";
 
-// Create a new person
+// Create a new person here
 export async function saveUser(req, res) {
   const { name, age, favoriteFoods } = req.body;
   // Create a document instance

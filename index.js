@@ -1,4 +1,4 @@
-// Import necessary modules and configurations
+// Import all necessary modules and configurations
 import express from "express";
 import connectDB from "./configs/database.js";
 import morgan from "morgan";
