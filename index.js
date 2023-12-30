@@ -5,7 +5,7 @@ import morgan from "morgan";
 import router from "./routes/person.js";
 import "dotenv/config";
 
-// Create an Express application
+// Create an Express application here
 const app = express();
 
 // Define the port for the server to listen on
