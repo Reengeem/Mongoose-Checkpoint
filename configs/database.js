@@ -1,4 +1,4 @@
-// Import dependencies
+// Import all dependencies
 import mongoose from "mongoose";
 import "dotenv/config";
 
@@ -6,7 +6,7 @@ import "dotenv/config";
 const port = process.env.PORT || 4000;
 const url = process.env.MONGO_URI;
 
-// Function to connect to MongoDB and save data
+// Function to connect to MongoDB and save data here
 const connectDB = async function () {
   try {
     await mongoose.connect(url);

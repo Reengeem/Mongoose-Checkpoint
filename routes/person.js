@@ -13,7 +13,7 @@ import {
   removeDocumentById,
 } from "../controller/person.js";
 
-// Create an instance of the Express Router
+// Create an instance of the Express Router here
 const router = express.Router();
 
 // Route to seed a single user
